@@ -1,13 +1,22 @@
-.col {
+.cell {
     background-color: #d0d0d0;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    
+    aspect-ratio: 1;
+    margin: 1px;
+    flex: 1 1 10px;    
 }
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex: 1;
+}
+.alldivs {
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
 }
 
